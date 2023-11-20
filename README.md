@@ -12,6 +12,7 @@ FlipClock is an aesthetic digital clock for M5Stack, which recreates the behavio
 Before you can start uploading the sketch to your M5Stack, you will need to make some changes to the **config.h** file.
 
 * Modify the following two variables with your network credentials so that M5Stack can connect to an existing network.
+
 ```
 const char* ssid       = "YOUR_SSID";
 const char* password   = "YOUR_PASS";
@@ -27,6 +28,7 @@ const long  gmtOffset_sec = 3600;
 ```
 
 * Change daylight offset (in seconds). Set it to 3600 if your country follows daylight saving time; otherwise, set it to 0.
+
 ```
 const int   daylightOffset_sec = 3600;
 ```
