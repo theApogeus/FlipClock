@@ -18,9 +18,9 @@ const char* password   = "YOUR_PASS";
 ```
 
 * Adjust the UTC offset for your time zone (in seconds). See [list of UTC time offsets](https://en.wikipedia.org/wiki/List_of_UTC_offsets). Here are some examples for other time zones:
-    * For UTC -3.00: -3*60*60: -10800
-    * For UTC +1,00: 1*60*60: 3600
-    * For UTC +0,00: 0*60*60: 0
+    * For UTC -3.00: -3 * 60 * 60: -10800
+    * For UTC +1,00: 1 * 60 * 60: 3600
+    * For UTC +0,00: 0 * 60* 60: 0
 
 ```
 const long  gmtOffset_sec = 3600;
